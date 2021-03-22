@@ -26,6 +26,7 @@ export const removeFromWishList = id => async (dispatch) => {
 } 
 
 export const addAddress = formData => async (dispatch) => {
+    console.log(formData)
     dispatch({ type: ADD_ADDRESS, payload: formData})
 }
 
